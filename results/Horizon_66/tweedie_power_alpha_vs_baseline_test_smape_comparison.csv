@@ -1,0 +1,14 @@
+material,model,feature_set,tweedie_power,tweedie_alpha,split,n_rows,test_SMAPE,baseline_test_SMAPE,SMAPE_improvement_vs_baseline_percent,beats_baseline_SMAPE
+6,tweedie_direct_multilead_regression,full,1.1,0.1,test,258,0.13112651067956757,0.17135866537646366,23.478331024876216,True
+9,tweedie_direct_multilead_regression,reduced,1.9,0.9,test,258,0.17386918962173106,0.22577591441593842,22.99037296714545,True
+3,tweedie_direct_multilead_regression,full,1.05,1.0,test,258,0.11370936280470774,0.14053614695466835,19.08888547984307,True
+10,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.10202304917537582,0.12399272450958593,17.718519712430084,True
+11,tweedie_direct_multilead_regression,reduced,1.05,0.3,test,258,0.7216175422031981,0.8740641758830874,17.441125936304267,True
+5,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.07788688198731675,0.09312515362225739,16.363217715324783,True
+4,tweedie_direct_multilead_regression,full,1.7,0.73,test,258,0.12335653440893377,0.14526660669460845,15.082662687740658,True
+7,tweedie_direct_multilead_regression,full,1.7,0.9,test,258,0.23749406862086095,0.2571111079301774,7.629790664137216,True
+12,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.9013888168402496,0.939331474125307,4.039325661943683,True
+2,tweedie_direct_multilead_regression,reduced,1.1,0.3,test,258,0.16954773962913644,0.16580406438548295,-2.2578911183683066,False
+8,tweedie_direct_multilead_regression,reduced,1.7,1.0,test,258,0.2572029563856037,0.22497953397238482,-14.322823878359598,False
+13,tweedie_direct_multilead_regression,full,1.9,0.0,test,258,1.4155952122741273,0.9981345208209497,-41.824091116478264,False
+1,tweedie_direct_multilead_regression,full,1.05,1.0,test,258,0.2469531487944472,0.14699894172691766,-67.99654874605568,False

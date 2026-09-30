@@ -1,0 +1,14 @@
+material,model,feature_set,tweedie_power,tweedie_alpha,split,n_rows,test_SMAPE
+1,tweedie_direct_multilead_regression,full,1.05,1.0,test,258,0.2469531487944472
+10,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.10202304917537582
+11,tweedie_direct_multilead_regression,reduced,1.05,0.3,test,258,0.7216175422031981
+12,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.9013888168402496
+13,tweedie_direct_multilead_regression,full,1.9,0.0,test,258,1.4155952122741273
+2,tweedie_direct_multilead_regression,reduced,1.1,0.3,test,258,0.16954773962913644
+3,tweedie_direct_multilead_regression,full,1.05,1.0,test,258,0.11370936280470774
+4,tweedie_direct_multilead_regression,full,1.7,0.73,test,258,0.12335653440893377
+5,tweedie_direct_multilead_regression,reduced,1.05,1.0,test,258,0.07788688198731675
+6,tweedie_direct_multilead_regression,full,1.1,0.1,test,258,0.13112651067956757
+7,tweedie_direct_multilead_regression,full,1.7,0.9,test,258,0.23749406862086095
+8,tweedie_direct_multilead_regression,reduced,1.7,1.0,test,258,0.2572029563856037
+9,tweedie_direct_multilead_regression,reduced,1.9,0.9,test,258,0.17386918962173106

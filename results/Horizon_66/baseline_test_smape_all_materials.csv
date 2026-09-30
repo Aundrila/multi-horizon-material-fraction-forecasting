@@ -1,0 +1,14 @@
+material,model,split,n_rows,baseline_test_SMAPE
+1,combined_naive_seasonal_baseline,test,258,0.14699894172691766
+2,combined_naive_seasonal_baseline,test,258,0.16580406438548295
+3,combined_naive_seasonal_baseline,test,258,0.14053614695466835
+4,combined_naive_seasonal_baseline,test,258,0.14526660669460845
+5,combined_naive_seasonal_baseline,test,258,0.09312515362225739
+6,combined_naive_seasonal_baseline,test,258,0.17135866537646366
+7,combined_naive_seasonal_baseline,test,258,0.2571111079301774
+8,combined_naive_seasonal_baseline,test,258,0.22497953397238482
+9,combined_naive_seasonal_baseline,test,258,0.22577591441593842
+10,combined_naive_seasonal_baseline,test,258,0.12399272450958593
+11,combined_naive_seasonal_baseline,test,258,0.8740641758830874
+12,combined_naive_seasonal_baseline,test,258,0.939331474125307
+13,combined_naive_seasonal_baseline,test,258,0.9981345208209497
