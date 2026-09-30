@@ -1,0 +1,3 @@
+rolling_block,n_targets,n_unique_cutoffs,cutoff_date,target_start,target_end,min_lead,max_lead,one_common_cutoff,cutoff_before_block
+1,132,1,2024-12-31,2025-01-01,2025-07-04,1,132,True,True
+2,126,1,2025-07-04,2025-07-07,2025-12-31,1,126,True,True
