@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project investigates **multi-horizon forecasting of material fractions in an industrial recycling process**.
+This project investigates **multi-horizon forecasting of 13 different material fractions in an industrial recycling process**.
 
 The available data contained daily information about:
 
@@ -17,10 +17,6 @@ Forecasts were required for four future horizons:
 - **132 working days**
 
 The main evaluation metric was **sMAPE**.
-
-This work was completed as part of a group project at **TU Dortmund University** using an industrial forecasting problem provided by **REMONDIS**.
-
-My individual contribution focused on the development and evaluation of the **Tweedie regression** and **Tweedie-Hurdle** forecasting approaches.
 
 ---
 
@@ -61,7 +57,6 @@ Together, the fractions describe the material composition for a given day, with 
 
 The forecasting target was therefore not simply an independent numeric series, but part of a **compositional time-series problem**.
 
-The original industrial data are **not included in this repository**.
 
 ---
 
@@ -303,42 +298,6 @@ Standard Tweedie regression was effective for many irregular, non-negative mater
 
 ---
 
-# Repository Structure
-
-```text
-.
-├── README.md
-│
-├── models/
-│   ├── tweedie_h10.ipynb
-│   ├── tweedie_h22.ipynb
-│   ├── tweedie_h66.ipynb
-│   └── tweedie_h132.ipynb
-│
-├── results/
-│   ├── H10/
-│   ├── H22/
-│   ├── H66/
-│   └── H132/
-│
-└── data/
-    └── README.md
-```
-
-### `models/`
-
-Contains the final Google Colab / Jupyter notebook implementations for the four forecasting horizons.
-
-### `results/`
-
-Contains generated result tables and visualizations organized by forecast horizon.
-
-### `data/`
-
-The original industrial datasets are not published. This folder only describes the expected data structure.
-
----
-
 # Technologies
 
 The project was implemented in Python using tools including:
@@ -353,23 +312,4 @@ The project was implemented in Python using tools including:
 
 ---
 
-# My Contribution
 
-This was a group forecasting project.
-
-My individual contribution focused on:
-
-- exploratory analysis of the distributional behaviour of the material fractions,
-- development of the **Tweedie regression** forecasting pipeline,
-- development of the **Tweedie-Hurdle** model for sparse fractions,
-- temporal, mass-related, compositional, and intermittency feature engineering,
-- time-aware model validation,
-- hyperparameter and feature-set selection,
-- leakage-safe rolling out-of-sample evaluation,
-- and analysis of Tweedie and Tweedie-Hurdle performance across multiple forecasting horizons.
-
----
-
-## Acknowledgements
-
-This project was conducted at **TU Dortmund University** as part of the Data Mining Cup project using an industrial forecasting problem provided by **REMONDIS**.
