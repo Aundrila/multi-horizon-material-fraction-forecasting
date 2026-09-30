@@ -1,0 +1,3 @@
+material,tweedie_power,tweedie_alpha,lr_C,prob_threshold,n_folds,mean_val_SMAPE,std_val_SMAPE,mean_true_zero_rate_val,mean_pred_zero_rate_val
+12,1.05,1.0,0.01,0.5,5,1.0491281996438608,0.1121808641164997,0.4150879107699688,0.49006764212041254
+13,1.3,1.0,1.0,0.4,5,0.9912627723096519,0.4302946271098838,0.47398069081314465,0.394

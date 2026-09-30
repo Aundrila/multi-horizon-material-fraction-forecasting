@@ -1,0 +1,14 @@
+material,model,feature_set,tweedie_power,tweedie_alpha,n_folds,mean_validation_SMAPE,std_validation_SMAPE
+1,tweedie_direct_multilead_regression,full,1.05,1.0,5,0.1651548111762427,0.05053662635000437
+10,tweedie_direct_multilead_regression,reduced,1.1,0.73,5,0.15520287132128097,0.03858554704464914
+11,tweedie_direct_multilead_regression,reduced,1.05,0.3,5,0.330440923138185,0.15609923702098266
+12,tweedie_direct_multilead_regression,reduced,1.05,1.0,5,1.132923419291863,0.06914031075766146
+13,tweedie_direct_multilead_regression,reduced,1.05,0.4,5,1.338347597318633,0.38407145404539766
+2,tweedie_direct_multilead_regression,reduced,1.1,0.2,5,0.16573928093408288,0.03568863544706214
+3,tweedie_direct_multilead_regression,full,1.05,1.0,5,0.17061162652262102,0.013735910191862528
+4,tweedie_direct_multilead_regression,reduced,1.05,1.0,5,0.20127968244694702,0.026272568370063677
+5,tweedie_direct_multilead_regression,reduced,1.05,1.0,5,0.13567231502033666,0.024804405563887664
+6,tweedie_direct_multilead_regression,full,1.05,1.0,5,0.18678626236448012,0.03475714296525064
+7,tweedie_direct_multilead_regression,full,1.3,0.6,5,0.2711857600339728,0.025763112952673792
+8,tweedie_direct_multilead_regression,reduced,1.7,1.0,5,0.22148047387655284,0.052109866690223564
+9,tweedie_direct_multilead_regression,reduced,1.7,1.0,5,0.20702139484688442,0.05733383237311486

@@ -1,0 +1,2 @@
+n_materials,baseline_average_test_SMAPE,tweedie_average_test_SMAPE,average_SMAPE_improvement_percent,materials_where_tweedie_beats_baseline
+13,0.37223244326947064,0.3993552740751686,-7.286530579512887,8
